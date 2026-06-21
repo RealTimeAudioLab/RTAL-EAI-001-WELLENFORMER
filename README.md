@@ -1,172 +1,190 @@
-# RTAL-EAI-001-WELLENFORMER
-6-Voice Digital Wavetable Synthesizer
-Engineering Design Study
+# WELLENFORMER
 
-⸻
+## Software-Defined Digital Wavetable Synthesizer
+
+### Engineering Design Study
+
+---
 
 <p align="center">
 
-RealTimeAudioLab
+<img src="images/hero.jpg" width="900">
+
+</p>
+
+<p align="center">
+
+### Minimal Hardware. Maximum Sound Design.
+
+**Designed by RealTimeAudioLab**
 
 Engineering Heritage Collection
-
-Collection III
-
-Embedded Audio Instruments
 
 RTAL-EAI-001
 
 </p>
 
-⸻
+---
 
-Minimal Hardware. Maximum Sound Design.
+# Overview
 
-⸻
+WELLENFORMER is a six-voice digital wavetable synthesizer developed as an independent engineering design study.
 
-Overview
+Rather than reproducing an existing commercial synthesizer, the project explores how a professional musical instrument can be realised using minimal hardware while maintaining excellent usability, low latency and high sound quality.
 
-WELLENFORMER is an original six-voice digital wavetable synthesizer developed as an independent engineering design study by RealTimeAudioLab.
+The synthesizer replaces the majority of traditional front-panel controls with a modern touchscreen and comprehensive MIDI implementation, significantly reducing hardware complexity while increasing flexibility.
 
-Rather than reproducing an existing commercial instrument, the project investigates how a professional polyphonic synthesizer can be realized using a remarkably small amount of hardware while maintaining excellent usability, low latency and high sound quality.
+---
 
-The result is a complete standalone musical instrument combining modern DSP techniques, an integrated graphical user interface and comprehensive MIDI implementation.
+# Engineering Design Study
 
-⸻
+Every RealTimeAudioLab project begins with a technical question.
 
-Engineering Design Study
+For WELLENFORMER that question was:
 
-The development of WELLENFORMER was guided by one central engineering question:
+> **Can a modern polyphonic wavetable synthesizer be implemented with minimal hardware while remaining intuitive, responsive and musically inspiring?**
 
-Can a modern polyphonic wavetable synthesizer be designed with minimal hardware while providing a professional user experience?
+The project therefore focuses on:
 
-Traditional synthesizers often require dozens of potentiometers, switches and rotary encoders.
+- Minimal hardware complexity
+- Touch-based operation
+- Complete MIDI control
+- Professional sound quality
+- Low latency
+- Efficient DSP algorithms
+- Software-defined user interface
 
-WELLENFORMER deliberately replaces nearly all physical controls with a high-resolution touchscreen and complete MIDI control.
+---
 
-This significantly reduces
+# Main Features
 
-* hardware complexity
-* manufacturing cost
-* wiring effort
-* front-panel limitations
+| Feature | Description |
+|-----------|-------------|
+| Polyphony | 6 Voices |
+| Oscillators | Dual Wavetable |
+| Display | Touch TFT |
+| Storage | SD Card |
+| MIDI | Complete Implementation |
+| DSP | Stereo Chorus, Delay, Reverb |
+| Presets | Internal Program Memory |
+| Interface | Fully Touch Operated |
 
-while simultaneously increasing flexibility through software.
+---
 
-⸻
+# Why Touch?
 
-Design Objectives
+One of the primary objectives of WELLENFORMER was reducing hardware complexity.
 
-The project focuses on six primary engineering goals.
+Instead of using dozens of potentiometers, switches and rotary encoders, the complete instrument is operated from a graphical touchscreen interface.
 
-Minimal Hardware
+This approach offers several advantages:
 
-Replace conventional control elements with a software-defined graphical interface.
+- fewer components
+- lower manufacturing cost
+- easier assembly
+- greater flexibility
+- firmware-defined workflows
+- future expandability
 
-⸻
+The touchscreen therefore becomes an integral part of the instrument architecture rather than simply replacing physical controls.
 
-Professional User Experience
+---
 
-Every synthesis parameter can be accessed quickly through the touchscreen or external MIDI controllers.
+# Audio Engine
 
-⸻
+Each voice consists of:
 
-Low Latency
+• Dual wavetable oscillators
 
-The complete audio engine has been optimized for immediate response during live performance.
+• Noise generator
 
-⸻
+• Digital mixer
 
-High Sound Quality
+• Resonant low-pass filter
 
-Special attention has been paid to
+• Envelope generator
 
-* efficient DSP algorithms
-* smooth wavetable interpolation
-* clean stereo processing
-* musical sound character
+• Stereo DSP routing
 
-⸻
+The architecture was designed for low latency and deterministic real-time performance.
 
-Software Expandability
+---
 
-Future firmware versions can introduce entirely new functionality without requiring hardware modifications.
+# Integrated Wavetable Editor
 
-⸻
-
-Complete MIDI Integration
-
-Every important parameter can be automated externally.
-
-⸻
-
-Main Features
-
-* Six voice polyphony
-* Dual wavetable oscillators
-* Integrated wavetable editor
-* Stereo DSP engine
-* Resonant digital filters
-* Multiple envelopes
-* Multiple LFOs
-* Chorus
-* Delay
-* Reverb
-* Touch TFT operation
-* Complete MIDI implementation
-* Preset memory
-* SD card support
-
-⸻
-
-Integrated Wavetable Editor
-
-One of the defining features of WELLENFORMER is the integrated graphical wavetable editor.
+Unlike many hardware synthesizers, WELLENFORMER includes a built-in graphical wavetable editor.
 
 Waveforms can be drawn directly on the touchscreen.
 
-Two reference waveforms are automatically interpolated to generate complete wavetable sets without requiring external software.
+The firmware automatically generates complete wavetable sets through interpolation and stores them on the SD card.
 
-This transforms WELLENFORMER into a complete sound design environment.
+This allows sound design without requiring external software.
 
-⸻
+---
 
-Why Open Source?
+# MIDI
 
-The purpose of this repository is not simply to publish firmware.
+The instrument provides complete MIDI integration.
 
-It documents the complete engineering process behind WELLENFORMER and preserves the design philosophy for future developers.
+Supported functions include:
 
-⸻
+- Note On / Off
+- Velocity
+- Pitch Bend
+- Modulation Wheel
+- Program Change
+- Control Change
+- MIDI Clock Synchronisation
 
-Repository
+The complete MIDI implementation chart is included in the documentation.
 
-Firmware/
-Hardware/
-Documentation/
-Manual/
-MIDI/
-Presets/
-Wavetables/
-Images/
-Videos/
+---
 
-⸻
+# Gallery
 
-About RealTimeAudioLab
+## Front View
 
-Engineering Heritage Collection
+*(Photo)*
 
-Since 1980
+---
 
-Analog Audio
+## Touch Interface
 
-Digital Audio
+*(Photo)*
 
-Embedded DSP
+---
 
-Electronic Musical Instruments
+## Wavetable Editor
 
-⸻
+*(Photo)*
 
-Engineering Without Compromise
+---
+
+## Hardware
+
+*(Photo)*
+
+---
+
+# Repository Structure
+
+```text
+WELLENFORMER/
+
+README.md
+
+firmware/
+
+documentation/
+
+hardware/
+
+images/
+
+videos/
+
+midi/
+
+presets/
+
+wavetables/
