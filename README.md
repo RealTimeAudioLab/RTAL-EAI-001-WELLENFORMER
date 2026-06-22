@@ -54,6 +54,8 @@ The project therefore focuses on:
 - Efficient DSP algorithms
 - Software-defined user interface
 
+Independent developments exploring innovative solutions in audio electronics, digital signal processing and embedded musical instruments.
+
 ---
 
 # Main Features
