@@ -146,25 +146,37 @@ The complete MIDI implementation chart is included in the documentation.
 
 ## Front View
 
-*(Photo)*
+<p align="center">
+
+<img src="images/front.jpg" width="900">
+
+</p>
 
 ---
 
-## Touch Interface
-
-*(Photo)*
-
----
 
 ## Wavetable Editor
 
-*(Photo)*
+<p align="center">
+
+<img src="images/wavetable_1.jpg" width="900">
+
+</p>
+<p align="center">
+
+<img src="images/wavetable_2.jpg" width="900">
+
+</p>
 
 ---
 
 ## Hardware
 
-*(Photo)*
+<p align="center">
+
+<img src="images/hardware.jpg" width="900">
+
+</p>
 
 ---
 
