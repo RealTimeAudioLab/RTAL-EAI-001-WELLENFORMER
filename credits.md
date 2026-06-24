@@ -141,9 +141,7 @@ Thank you to everyone who contributes to the open-source community.
 
 ---
 
-© 2026 Andreas Hülsmann
-
-RealTimeAudioLab
+© 2026 RealTimeAudioLab
 
 Engineering Heritage Collection
 
