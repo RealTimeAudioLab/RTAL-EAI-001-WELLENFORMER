@@ -5,7 +5,7 @@ This repository contains original RealTimeAudioLab source files and selected thi
 ## RTAL Original Work
 
 Project: **RTAL-WSYN-001 WELLENFORMER**  
-Original Design: Andreas Huelsmann / RealTimeAudioLab  
+Original Design: RealTimeAudioLab  
 Collection: RTAL Engineering Heritage Collection
 
 The RTAL source files have been prepared for GitHub publication by adding documentation headers and repository metadata. The functional code has intentionally not been modernized.
