@@ -10,23 +10,43 @@ Collection: RTAL Engineering Heritage Collection
 
 The RTAL source files have been prepared for GitHub publication by adding documentation headers and repository metadata. The functional code has intentionally not been modernized.
 
-## Third-Party Component: XPT2046 Touchscreen Library
+## Third-Party Software
 
-Files:
+The WELLENFORMER project makes use of several excellent
+open-source libraries.
 
-- `firmware/Wellenformer/XPT2046_Touchscreen.cpp`
-- `firmware/Wellenformer/XPT2046_Touchscreen.h`
+The following authors deserve special thanks for making
+their work available to the community.
 
-Original copyright:
+----------------------------------------------------------
 
-```text
-Touchscreen library for XPT2046 Touch Controller Chip
-Copyright (c) 2015, Paul Stoffregen, paul@pjrc.com
-```
+Paul Stoffregen
 
-License: MIT License, as included in the original file headers.
+XPT2046 Touchscreen Library
 
-The original copyright and permission notices are preserved.
+License:
+MIT License
+
+https://github.com/PaulStoffregen/XPT2046_Touchscreen
+
+----------------------------------------------------------
+
+Bodmer
+
+TFT_eSPI Library
+
+License:
+MIT License
+
+https://github.com/Bodmer/TFT_eSPI
+
+The slider user interface was originally inspired by the
+"TFT_Meters" example included with the TFT_eSPI library.
+
+The implementation used in WELLENFORMER has been
+extensively adapted and integrated into the project.
+
+----------------------------------------------------------
 
 ## Names and Trademarks
 
