@@ -1,6 +1,6 @@
 # CREDITS
 
-# RTAL-WSYN-001 WELLENFORMER
+# RTAL WELLENFORMER
 
 *"Innovation is rarely created in isolation. Every engineering project benefits from the ideas, experience and generosity of those who came before."*
 
