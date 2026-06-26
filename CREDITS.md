@@ -1,150 +1,159 @@
 # CREDITS
 
-# RTAL WELLENFORMER
+## RTAL-EAI-001 – WELLENFORMER
 
-*"Innovation is rarely created in isolation. Every engineering project benefits from the ideas, experience and generosity of those who came before."*
-
-The WELLENFORMER is an original development by **RealTimeAudioLab (RTAL)**.
-
-Although its architecture, DSP engine, firmware and user interface have been developed independently, this project would not have been possible without the outstanding work of many members of the open-source community.
-
-The following people and projects deserve special recognition.
+"This repository represents not only my own engineering work, but also the inspiration, knowledge and generosity of many outstanding developers who have openly shared their ideas with the world. I believe that acknowledging those contributions is an essential part of responsible engineering."
 
 ---
 
-# Paul Stoffregen
+# Oliver Gillet
 
-## XPT2046 Touchscreen Library
+## Mutable Instruments
 
-Special thanks to **Paul Stoffregen** for developing and maintaining the excellent XPT2046 Touchscreen Library.
+Special thanks to **Olivier Gillet**, founder of **Mutable Instruments**, for his extraordinary contribution to modern digital synthesizer design and the open-source hardware community.
 
-This library provides reliable touchscreen support and has become a standard component in countless embedded projects.
+Through projects such as **Braids**, **Clouds**, **Plaits**, **Rings**, **Elements**, **Warps**, **Tides** and many others, Olivier Gillet demonstrated how innovative DSP algorithms and elegant embedded software architecture can become accessible to musicians, engineers and DIY developers alike.
+
+The decision to release both hardware and firmware as open source has inspired an entire generation of synthesizer designers and has had a lasting impact on the electronic music community.
+
+Although this project does not reproduce Mutable Instruments hardware, sincere appreciation is expressed for the inspiration provided by Olivier Gillet's work and for his commitment to open-source electronic instrument development.
+
+### Selected Projects
+
+- Braids
+- Plaits
+- Clouds
+- Rings
+- Elements
+- Warps
+- Tides
+- Marbles
+- Stages
+
+### Resources
+
+Mutable Instruments Archive
+
+https://pichenettes.github.io/mutable-instruments-documentation/
 
 GitHub
 
-https://github.com/PaulStoffregen/XPT2046_Touchscreen
+https://github.com/pichenettes
 
-License
-
-MIT License
+*"Open knowledge inspires future innovation."*
 
 ---
 
-# Bodmer
+## Rolf Degen / TubeOhm Instruments
 
-## TFT_eSPI Library
+### TubeOhm Jeannie Synthesizer
 
-Special thanks to **Bodmer** for creating one of the most powerful and widely used graphics libraries available for ESP32-based displays.
+Special thanks to **Rolf Degen**, founder of **TubeOhm Instruments**, for creating the **Jeannie** synthesizer.
 
-The WELLENFORMER uses the TFT_eSPI library for its graphical user interface.
+The Jeannie is a remarkable open-source DIY synthesizer project and represents the foundation of this engineering study.
 
-The original **TFT_Meters** example served as inspiration for the slider visualization.
+The original synthesizer hardware, firmware, architecture and documentation are the work of Rolf Degen / TubeOhm Instruments.
 
-The implementation used in WELLENFORMER has been significantly redesigned and integrated into the RTAL user interface.
+This repository documents only a personal build and the integration of a custom ESP32-based effects processor.
 
-GitHub
+Resources:
 
-https://github.com/Bodmer/TFT_eSPI
-
-License
-
-MIT License
+- TubeOhm Instruments: https://www.tubeohm.com/
+- GitHub: https://github.com/rolfdegen
+- Jeannie Open Source Synthesizer: https://github.com/rolfdegen/Jeannie-Open-source-Synthesizer
 
 ---
 
-# Marcel Licence
+## Marcel Licence
 
-## Open-Source Embedded Audio Pioneer
+### Embedded Audio and DSP Libraries
 
-Special thanks to **Marcel Licence** for his remarkable contributions to embedded digital audio development.
+Special thanks to **Marcel Licence** for his outstanding contributions to open-source embedded audio development.
 
-Through numerous open-source projects, educational videos and technical publications, Marcel Licence has demonstrated the impressive capabilities of the ESP32 platform for real-time audio synthesis.
+His ESP32 synthesizer projects, DSP experiments, libraries and educational videos have inspired many developers to explore real-time audio synthesis and effects processing on microcontrollers.
 
-His work inspired many developers—including the early stages of the WELLENFORMER project—to explore professional-quality audio processing on low-cost microcontrollers.
+Some effects in the ESP32 DSP processor are based on or inspired by Marcel Licence libraries and have been adapted for this engineering study.
 
-While the WELLENFORMER follows its own architecture and implementation philosophy, sincere appreciation is expressed for Marcel Licence's commitment to sharing knowledge and advancing the open-source embedded audio community.
+Resources:
 
-Selected Projects
-
-* ML_SynthTools
-* ML_SynthTools Library
-* ESP32 Basic Synth
-* ESP32 MIDI Sampler
-* ESP32 Drum Computer
-* ESP32 Multitrack Looper
-* Numerous educational ESP32 audio demonstrations
-
-GitHub
-
-https://github.com/marcel-licence
-
-YouTube
-
-https://www.youtube.com/@MarcelLicence
+- GitHub: https://github.com/marcel-licence
+- YouTube: https://www.youtube.com/@MarcelLicence
 
 ---
 
-# Espressif Systems
+## Bodmer
 
-The ESP32 platform has fundamentally changed what is possible in embedded audio development.
+### TFT_eSPI Library
 
-Special thanks to **Espressif Systems** for providing powerful and affordable hardware together with an excellent open-source software framework.
+Special thanks to **Bodmer** for the excellent **TFT_eSPI** graphics library.
 
-GitHub
+The library and its examples, including concepts from `TFT_Meters.ino`, provided important inspiration for graphical user interface elements such as slider and meter visualizations.
 
-https://github.com/espressif/arduino-esp32
+Resource:
 
----
+- GitHub: https://github.com/Bodmer/TFT_eSPI
 
-# Arduino Community
+License:
 
-The Arduino ecosystem has made embedded software development accessible to millions of engineers, students and makers.
-
-The WELLENFORMER project benefits greatly from this outstanding community and its continuously evolving ecosystem.
+- MIT License
 
 ---
 
-# Open-Source Community
+## Paul Stoffregen
 
-Many additional developers have contributed libraries, examples, documentation and valuable discussions.
+### XPT2046 Touchscreen Library
 
-Although they cannot all be listed individually, their work has contributed to the success of projects like WELLENFORMER.
+Special thanks to **Paul Stoffregen** for the XPT2046 Touchscreen library.
 
-Thank you for sharing your knowledge.
+Resource:
 
----
+- GitHub: https://github.com/PaulStoffregen/XPT2046_Touchscreen
 
-# About RTAL
+License:
 
-RealTimeAudioLab (RTAL) develops and documents original hardware and software projects in the fields of
-
-* Digital Audio
-* Embedded Systems
-* Electronic Musical Instruments
-* DSP
-* MIDI
-* Hardware Design
-
-The **Engineering Heritage Collection** preserves not only finished projects but also the engineering knowledge, development history and design decisions behind them.
+- MIT License
 
 ---
 
-# Final Words
+## Espressif Systems
 
-Engineering is a collaborative journey.
+Special thanks to **Espressif Systems** for the ESP32 platform and the ESP32 Arduino framework.
 
-Every open-source library, every shared idea and every published project helps others to learn, create and innovate.
+Resource:
 
-The WELLENFORMER is one more step in this continuing journey.
-
-Thank you to everyone who contributes to the open-source community.
+- https://github.com/espressif/arduino-esp32
 
 ---
 
-© 2026 Andreas Hülsmann
+## Arduino Community
 
-RealTimeAudioLab
+The Arduino ecosystem made embedded development accessible to a wide community of engineers, students, musicians and makers.
 
-Engineering Heritage Collection
+This project benefits from that ecosystem.
 
-*"Preserving Engineering — Not Just Hardware."*
+---
+
+## Open-Source Community
+
+Many additional developers have contributed libraries, examples, documentation and technical discussions that made projects like this possible.
+
+Thank you to everyone who shares ideas, code and knowledge.
+
+---
+
+## Final Words
+
+This repository exists because of a chain of shared engineering knowledge:
+
+- Rolf Degen created the Jeannie.
+- Marcel Licence shared embedded audio DSP knowledge.
+- Open-source developers provided tools and libraries.
+- RTAL documents one possible engineering extension.
+
+Thank you.
+
+---
+
+© 2026 RealTimeAudioLab
+
+RTAL Engineering Heritage Collection
