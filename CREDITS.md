@@ -101,7 +101,7 @@ License:
 
 ## Paul Stoffregen
 
-### XPT2046 Touchscreen Library
+### XPT2046 Touchscreen Library (and many other fantastic things)
 
 Special thanks to **Paul Stoffregen** for the XPT2046 Touchscreen library.
 
